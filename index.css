@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1b2841;
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.title {
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 0;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #131d31;
+    color: orange;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    background-color: #1b2841;
+}
+
+.content h3 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Weapons */
+
+.weapons {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    border-radius: 7px;
+    padding: 0 80px;
+}
+
+.weapons button {
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #273D66;
+    color: white;
+    font-size: 75px;
+    transition-duration: 0.1s
+}
+
+button:hover {
+    background-color: #476191;
+    cursor: pointer;
+}
+
+/* Score and Retry */
+.score {
+    border: 5px solid white;
+    border-radius: 10px;
+    font-size: 40px;
+    margin: 30px;
+    padding: 15px 30px;
+    color: white;
+}
+
+.win {
+    font-size: 40px;
+    margin: 20px;
+}
+
+.try-again {
+    padding: 20px 30px;
+    margin: 30px;
+    border: 5px solid white;
+    border-radius: 7px;
+    background-color: #273D66;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    display: none;
+}
